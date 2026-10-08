@@ -6,7 +6,7 @@ export const Route = createFileRoute("/family-floater-health-insurance")({
   component: Page,
   head: () => ({
     meta: [
-      { title: "Family Floater Health Insurance in Chennai | Deeksha Insurance" },
+      { title: "Family Health Insurance in Chennai | Deeksha Insurance" },
       { name: "description", content: "Compare affordable family health insurance plans in Chennai by premium, sum insured, room limits and waiting periods. Get a free quote." },
       { name: "keywords", content: "cheapest health insurance plans for family, affordable family health insurance Chennai, health insurance for family Chennai, family floater health insurance Chennai, cashless family health plan" },
       { property: "og:title", content: "Affordable Family Health Insurance Plans in Chennai" },
