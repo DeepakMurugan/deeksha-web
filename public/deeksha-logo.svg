@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 180" role="img" aria-labelledby="title">
+  <title id="title">Deeksha, Inspire Grow Succeed</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 42C72-2 174 2 204 67c15 34 8 75-18 103" stroke="#07506b" stroke-width="8"/>
+    <path d="M22 111c35-45 75-49 118-17 27 20 52 28 76 15" stroke="#d4a51e" stroke-width="5"/>
+    <path d="M34 125c-4-24-1-46 10-67M42 93c-18-6-26-18-25-34 16 3 25 13 25 34m4-7c16-8 22-20 18-36-15 6-21 18-18 36m-5 29c-17-5-26-16-27-32 16 3 25 13 27 32m5-6c16-7 22-18 20-34-15 5-22 17-20 34" stroke="#087a45" stroke-width="5"/>
+  </g>
+  <text x="34" y="150" fill="#073b5c" font-family="Georgia,serif" font-size="146">D</text>
+  <text x="102" y="154" fill="#087a45" font-family="Georgia,serif" font-size="137">A</text>
+  <path d="M23 117c39 51 113 51 164 19" fill="none" stroke="#d4a51e" stroke-width="4"/>
+  <text x="240" y="101" fill="#073b5c" font-family="Georgia,'Times New Roman',serif" font-size="67" letter-spacing="3">DEEKSHA</text>
+  <path d="M243 124h46m294 0h139" fill="none" stroke="#d4a51e" stroke-width="2"/>
+  <text x="299" y="132" fill="#073b5c" font-family="Arial,sans-serif" font-size="20" letter-spacing="5">INSPIRE</text>
+  <circle cx="399" cy="125" r="3" fill="#087a45"/>
+  <text x="417" y="132" fill="#087a45" font-family="Arial,sans-serif" font-size="20" letter-spacing="5">GROW</text>
+  <circle cx="498" cy="125" r="3" fill="#087a45"/>
+  <text x="516" y="132" fill="#d4a51e" font-family="Arial,sans-serif" font-size="20" letter-spacing="4">SUCCEED</text>
+</svg>

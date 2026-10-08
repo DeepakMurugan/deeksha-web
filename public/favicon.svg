@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="12" fill="#fff"/>
+  <path d="M20 29C42 8 94 9 108 42c7 17 4 39-10 55" fill="none" stroke="#07506b" stroke-width="5" stroke-linecap="round"/>
+  <text x="13" y="99" fill="#073b5c" font-family="Georgia,serif" font-size="87">D</text>
+  <text x="55" y="103" fill="#087a45" font-family="Georgia,serif" font-size="81">A</text>
+  <path d="M17 79c27 35 71 30 96 6" fill="none" stroke="#d4a51e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M19 83c-3-15-1-29 7-42m-6 28c-10-4-15-11-14-20 9 2 14 8 14 20m5-5c9-5 12-12 10-21-9 4-12 10-10 21m-4 18c-10-3-15-9-16-18 9 2 14 7 16 18m5-4c9-4 13-10 11-19-9 3-13 10-11 19" fill="none" stroke="#087a45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
