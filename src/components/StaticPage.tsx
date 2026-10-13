@@ -23,6 +23,25 @@ const calculatorMarkers = [
   "hlv-calculator-form",
 ];
 
+function findElementEnd(source: string, openingIndex: number, tagName: string) {
+  const tagPattern = new RegExp(`<\\/?${tagName}\\b[^>]*>`, "gi");
+  tagPattern.lastIndex = openingIndex;
+  let depth = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = tagPattern.exec(source))) {
+    if (match[0].startsWith("</")) {
+      depth -= 1;
+    } else {
+      depth += 1;
+    }
+
+    if (depth === 0) return tagPattern.lastIndex;
+  }
+
+  return -1;
+}
+
 function removeCalculatorSections(source: string) {
   let result = source;
 
@@ -31,10 +50,33 @@ function removeCalculatorSections(source: string) {
     if (markerIndex === -1) continue;
 
     const sectionStart = result.lastIndexOf("<section", markerIndex);
-    const sectionEnd = result.indexOf("</section>", markerIndex);
-    if (sectionStart !== -1 && sectionEnd !== -1) {
-      result = `${result.slice(0, sectionStart)}${result.slice(sectionEnd + "</section>".length)}`;
+    const sectionEndStart = result.indexOf("</section>", markerIndex);
+    if (sectionStart === -1 || sectionEndStart === -1) continue;
+
+    const headingIndex = result.indexOf("<h1", sectionStart);
+    let removeStart = sectionStart;
+    let removeEnd = sectionEndStart + "</section>".length;
+
+    if (headingIndex !== -1 && headingIndex < markerIndex && headingIndex < sectionEndStart) {
+      const divPattern = /<div\b[^>]*>/gi;
+      divPattern.lastIndex = headingIndex + 1;
+      let calculatorColumn: { start: number; end: number } | undefined;
+      let divMatch: RegExpExecArray | null;
+
+      while ((divMatch = divPattern.exec(result)) && divMatch.index < markerIndex) {
+        const end = findElementEnd(result, divMatch.index, "div");
+        if (end > markerIndex && (!calculatorColumn || divMatch.index < calculatorColumn.start)) {
+          calculatorColumn = { start: divMatch.index, end };
+        }
+      }
+
+      if (calculatorColumn) {
+        removeStart = calculatorColumn.start;
+        removeEnd = calculatorColumn.end;
+      }
     }
+
+    result = `${result.slice(0, removeStart)}${result.slice(removeEnd)}`;
   }
 
   return result;
