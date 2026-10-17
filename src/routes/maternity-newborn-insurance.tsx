@@ -12,7 +12,7 @@ export const Route = createFileRoute("/maternity-newborn-insurance")({
       { property: "og:title", content: "Maternity & Newborn Health Insurance in Chennai" },
       { property: "og:description", content: "Maternity and newborn health insurance guidance with cashless hospital support in Chennai." },
       { property: "og:type", content: "article" },
-      { property: "og:url", content: "/maternity-newborn-insurance" },
+      { property: "og:url", content: "https://deekshainsure.in/maternity-newborn-insurance" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "https://deekshainsure.in/maternity-newborn-insurance" }],

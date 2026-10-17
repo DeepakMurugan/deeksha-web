@@ -98,7 +98,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Health insurance guidance in Chennai for families, parents and senior citizens, with local policy and claim support.",
       },
-      { property: "og:url", content: "https://deekshainsure.in/" },
       { property: "og:image", content: "https://deekshainsure.in/deeksha-logo.svg" },
       { property: "og:locale", content: "en_IN" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -110,7 +109,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
       { rel: "alternate icon", href: "/favicon.ico", type: "image/x-icon" },
-      { rel: "canonical", href: "https://deekshainsure.in/" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {

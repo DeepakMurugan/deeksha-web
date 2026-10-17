@@ -12,7 +12,7 @@ export const Route = createFileRoute("/about")({
       { property: "og:title", content: "About Deeksha Insurance | Chennai Health Plan Guidance" },
       { property: "og:description", content: "Local insurance guidance in Chennai for family, parents and senior citizen health cover." },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/about" },
+      { property: "og:url", content: "https://deekshainsure.in/about" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "https://deekshainsure.in/about" }],

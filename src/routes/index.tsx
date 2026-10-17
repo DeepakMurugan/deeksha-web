@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
   { property: "og:title", content: "Health Insurance in Chennai | Family, Parents & Senior Plans" },
   { property: "og:description", content: "Explore health insurance in Chennai for families, parents and senior citizens, with local policy guidance and claim support." },
   { property: "og:type", content: "website" },
-  { property: "og:url", content: "/" },
+  { property: "og:url", content: "https://deekshainsure.in/" },
   { name: "twitter:card", content: "summary_large_image" },
 ],
 

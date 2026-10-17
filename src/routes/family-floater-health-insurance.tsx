@@ -12,7 +12,7 @@ export const Route = createFileRoute("/family-floater-health-insurance")({
       { property: "og:title", content: "Affordable Family Health Insurance Plans in Chennai" },
       { property: "og:description", content: "Compare affordable family health insurance plans in Chennai by premium, sum insured, room limits and waiting periods. Get a free quote." },
       { property: "og:type", content: "article" },
-      { property: "og:url", content: "/family-floater-health-insurance" },
+      { property: "og:url", content: "https://deekshainsure.in/family-floater-health-insurance" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "https://deekshainsure.in/family-floater-health-insurance" }],

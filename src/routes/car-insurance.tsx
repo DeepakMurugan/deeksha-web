@@ -12,7 +12,7 @@ export const Route = createFileRoute("/car-insurance")({
       { property: "og:title", content: "Car Insurance in Chennai | Renewal & Cover Options" },
       { property: "og:description", content: "Instant car insurance renewal in Chennai with zero depreciation, NCB protection and cashless garages near Nanganallur." },
       { property: "og:type", content: "article" },
-      { property: "og:url", content: "/car-insurance" },
+      { property: "og:url", content: "https://deekshainsure.in/car-insurance" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "https://deekshainsure.in/car-insurance" }],

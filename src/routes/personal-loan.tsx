@@ -12,7 +12,7 @@ export const Route = createFileRoute("/personal-loan")({
       { property: "og:title", content: "Personal Loans in Chennai | Eligibility & Application Help" },
       { property: "og:description", content: "Get personal loan eligibility and application support in Chennai with clear guidance on documents, rates and repayment." },
       { property: "og:type", content: "article" },
-      { property: "og:url", content: "/personal-loan" },
+      { property: "og:url", content: "https://deekshainsure.in/personal-loan" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "https://deekshainsure.in/personal-loan" }],

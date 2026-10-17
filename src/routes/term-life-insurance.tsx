@@ -12,7 +12,7 @@ export const Route = createFileRoute("/term-life-insurance")({
       { property: "og:title", content: "Term Insurance in Chennai | Life Cover for Families" },
       { property: "og:description", content: "Compare pure term life insurance plans in Chennai up to Rs 5 crore, with 80C tax benefits and honest, commission-free guidance." },
       { property: "og:type", content: "article" },
-      { property: "og:url", content: "/term-life-insurance" },
+      { property: "og:url", content: "https://deekshainsure.in/term-life-insurance" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "https://deekshainsure.in/term-life-insurance" }],

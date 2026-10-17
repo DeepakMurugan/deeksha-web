@@ -12,7 +12,7 @@ export const Route = createFileRoute("/senior-citizen-health-insurance")({
       { property: "og:title", content: "Health Insurance for Senior Citizens in Chennai | Parents" },
       { property: "og:description", content: "Understand senior citizen and parents health insurance options in Chennai, including eligibility, waiting periods and local claim support." },
       { property: "og:type", content: "article" },
-      { property: "og:url", content: "/senior-citizen-health-insurance" },
+      { property: "og:url", content: "https://deekshainsure.in/senior-citizen-health-insurance" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "https://deekshainsure.in/senior-citizen-health-insurance" }],

@@ -12,7 +12,7 @@ export const Route = createFileRoute("/bike-insurance")({
       { property: "og:title", content: "Bike Insurance in Chennai | Two-Wheeler Renewal" },
       { property: "og:description", content: "Bike insurance renewal in Chennai in five minutes on WhatsApp, including third-party, comprehensive and expired policy inspection help." },
       { property: "og:type", content: "article" },
-      { property: "og:url", content: "/bike-insurance" },
+      { property: "og:url", content: "https://deekshainsure.in/bike-insurance" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "https://deekshainsure.in/bike-insurance" }],

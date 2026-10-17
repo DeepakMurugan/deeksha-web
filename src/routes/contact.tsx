@@ -12,7 +12,7 @@ export const Route = createFileRoute("/contact")({
       { property: "og:title", content: "Contact Deeksha Insurance | Chennai Policy Support" },
       { property: "og:description", content: "Speak with Deeksha Insurance in Chennai about health insurance options, quotes and claim support." },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/contact" },
+      { property: "og:url", content: "https://deekshainsure.in/contact" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "https://deekshainsure.in/contact" }],
